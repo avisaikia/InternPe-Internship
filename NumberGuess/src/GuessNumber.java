@@ -61,7 +61,7 @@ public class GuessNumber
                 if(guess != randomNumber)
                 {
                     System.out.println();
-                    System.out.println("Sorry you ran out of attempts. The correct number is: " + randomNumber);
+                    System.out.println("Sorry you ran out of attempts.The correct number is: " + randomNumber);
                     userInput.close();
                     break;
                 }
