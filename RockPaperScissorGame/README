@@ -1,1 +1,17 @@
+Firstly, It creates a Scanner object named userInput to read user input.
 
+The code enters a while loop that continues indefinitely (while(true)) until the user enters "quit".
+
+Inside the loop, the user is prompted to input their move using userInput.nextLine().
+
+If the user enters "quit", the loop breaks, and the game ends.
+
+If the user enters a move that is not "rock", "paper", or "scissors", an error message is displayed.
+
+If the user's input is valid (rock, paper, or scissors), a random number is generated to determine the computer opponent's move.
+
+The opponent's move is determined based on the random number.
+
+The user's move and opponent's move are compared to decide the winner or if it's a tie.
+
+The result of the game is printed to the console.
