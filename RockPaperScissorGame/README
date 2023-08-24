@@ -1,3 +1,5 @@
+#Steps in the Code:
+
 Firstly, It creates a Scanner object named userInput to read user input.
 
 The code enters a while loop that continues indefinitely (while(true)) until the user enters "quit".
