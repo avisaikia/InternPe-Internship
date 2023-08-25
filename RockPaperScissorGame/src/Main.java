@@ -23,7 +23,6 @@ public class Main {
             }
 
             if(!userMove.equals("rock") && !userMove.equals("paper") && !userMove.equals("scissors")){
-
                 System.out.println("Your move isn't valid!");
             }
             else
@@ -49,9 +48,7 @@ public class Main {
                 {
                     System.out.println("Game is tied");
                 }
-           else if
-
-                ((userMove.equals("rock") && opponentMove.equals("scissors")) ||
+           else if((userMove.equals("rock") && opponentMove.equals("scissors")) ||
                                 (userMove.equals("scissors") && opponentMove.equals("paper"))
                                 || (userMove.equals("paper") && opponentMove.equals("rock")))
                 {
