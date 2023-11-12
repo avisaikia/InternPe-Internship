@@ -48,7 +48,7 @@ public class GuessNumber
                     System.out.println("Please guess again: ");
                 }
             }
-            else if (noOfTries == 6)
+            else if (noOfTries == 5)
             {
                 if(guess == randomNumber)
                 {
